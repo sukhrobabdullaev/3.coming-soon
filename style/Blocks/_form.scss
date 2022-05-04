@@ -1,0 +1,61 @@
+.form-group {
+  margin-top: 2.5rem;
+  height: 3rem;
+  position: relative;
+}
+
+.form-group input {
+  border: 1px solid $red-light;
+  border-radius: 2rem;
+  color: $red-light;
+  padding: 0.2rem 1.5rem;
+  height: 100%;
+  width: 100%;
+}
+
+.form-group button {
+  background: linear-gradient(90deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  position: absolute;
+  border: 0;
+  border-radius: 2rem;
+  box-shadow: 0 5px 20px 3px hsl(0, 80%, 86%);
+  height: 100%;
+  width: 5rem;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: $red-light;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.text-error {
+  color: $red !important;
+  margin: 0;
+  margin-top: 0.5rem !important;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.text-success {
+  color: #44d838 !important;
+  margin: 0;
+  margin-top: 0.5rem !important;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.icon-error {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5.8rem;
+  display: none;
+}
+

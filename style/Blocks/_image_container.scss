@@ -1,0 +1,12 @@
+.image-container {
+  height: 100vh;
+  float: right;
+}
+
+.image-container img.hero-desktop {
+  height: 100%;
+}
+
+.image-container img.hero-mobile {
+  display: none;
+}

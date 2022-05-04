@@ -1,0 +1,30 @@
+// form
+@import './form';
+.content {
+  margin-top: 5.5rem;
+}
+
+.content h1 {
+  color: $dark;
+  font-family: inherit;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  line-height: 3.5rem;
+}
+
+.content h1 span {
+  display: block;
+}
+
+.content h1 span.text-pink {
+  color: $red-light;
+  font-weight: 300;
+}
+
+.content p {
+  color: $red-light;
+  line-height: 1.8rem;
+  margin-top: 1.2rem;
+}
