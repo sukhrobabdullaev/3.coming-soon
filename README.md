@@ -2,6 +2,8 @@
 
 #Preveiw hosting netlify 🔻 
 https://coming-soon0504.netlify.app/
+
+Responsive 
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
 
 Thanks for checking out this front-end coding challenge.
